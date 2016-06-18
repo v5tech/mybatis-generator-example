@@ -6,6 +6,7 @@
     <context id="generator" targetRuntime="MyBatis3">
 
         <commentGenerator>
+            <property name="suppressDate" value="false"/>
             <!-- 是否去除自动生成的注释 true：是 ： false:否 -->
             <property name="suppressAllComments" value="true"/>
         </commentGenerator>
@@ -70,7 +71,6 @@
         -->
 
         <!--有些表的字段需要指定java类型-->
-
         <!--
          <table schema="" tableName="">
             <columnOverride column="" javaType="" />
